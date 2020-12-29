@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>JavaScript</title>
+        <link rel="icon" href="img/logo-ordi.ico" /> 
+
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js" text="text/javascript"></script>
+
+    </head>
+    <body>
+        <div id="slider">
+
+            <img src="img/logo1.jfif" id="img">
+
+            <div class="entete_titre">
+                <h1>LANGUAGES</h1>
+                Apprendre les languages <strong>informatiques</strong>
+                <div id="rs">
+                    <a href="https://www.youtube.com/" target="_blank"><img src="img/yt_hover.png" class="sociaux" style="width: 30px"></a>
+                    <a href="http://instagram.com/" target="_blank"><img src="img/insta_hover.png" class="sociaux" style="width: 25px"></a>
+                    <a href="https://discord.gg/BqG9Hs9KeJ" target="_blank"><img src="img/discord_hover.png" class ="sociaux" style="width: 25px"></a>
+                </div>
+            </div>
+
+            <div id="btn_left"> <img src="img/btn_left.png" class="left" onclick="slider(-1)"> </div>
+            <div id="btn_right"> <img src="img/btn_right.png" class="right" onclick="slider(1)"> </div>
+
+        </div>
+
+<!--------------- le menu --------------->
+
+<div id="menu">
+    <ul>
+        <li><a href="">Infos</a></li>
+        <li><a href="">Languages</a></li>
+        <li><a href="">News</a></li>
+
+        <li style="float: right;"><a href="" class="active">Connextion</a></li>
+    </ul>
+</div>
+
+<div id="contenu">
+    <div class="titre_section"> COMMENT UTILISER LES LANGUAGES INFORMATIQUES ? </div>
+    <p>
+        Cela dépend de ce que vous voulez faire, si vous voulez faire des sites webs, utilisez le HTML/CSS, si c'est pour des jeux, utiliser le python(avec tkinter), sinon, il y a aussi le JavaScript(JS), qui est aussi utile que le python, aussi facile à comprendre.
+        <br />
+        <br />
+    </p>
+    <b class="titre_section">ALLER AUX DIFFERENTS LANGUAGES:</b>
+    <p>Clickez sur le mot au centre de l'image voulu</p>
+
+    <div class="colonne">
+       <img src="img/python_logo.jpg" class="image" style="width: 150px;">
+
+        <div class="middle">
+            <div class="text"><a href="python.html">Python</a></div>
+
+        </div>
+    </div>
+    <div class="colonne">
+        <img src="img/html_logo.png" class="image" style="width: 150px;">
+
+        <div class="middle">
+            <div class="text"><a href="HTML.html">HTML</a></div>
+
+        </div>
+    </div>
+    <div class="colonne">
+        <img src="img/accueil.jpg" class="image" style="width: 150px;">
+
+        <div class="middle">
+            <div class="text"><a href="index.html">Accueil</a></div>
+
+        </div>
+    </div>
+</div>
+
+<!--------------- Formulaire newsletter --------------->
+
+<div class="inscription_boite">
+    <h2>Abonnez-vous à la chaîne de diffusion</h2>
+    <h2>E-MAIL :</h2>
+    <form class="inscription">
+        <input type="email" placeholder="exemple@exemple.com" required autocomplete="off">
+
+        <div class="inscription_boite">
+            <h2>Abonnez-vous à la chaîne de diffusion</h2>
+            <h2>E-MAIL :</h2>
+            <form class="inscription">
+            <input type="email" placeholder="exemple@exemple.com" required autocomplete="off">
+            <div class="inscription_boite">
+                <h2>MOT DE PASSE :</h2>
+                    <form class="inscription">  
+                    <input type="text" placeholder="motdepasse" onfocusin="(this.type='password')" onfocusout="(this.type='text')">
+                </div>
+                <button type="submit"><span>Inscription</span></button>
+            </form>
+        </div>
+
+<div class="footer">
+    <h2>LANGUAGES INFORMATIQUES <br /></h2>
+    <img src="img/discord.png"style="width: 50px" class="sociaux">
+    <img src="img/insta.png"style="width: 30px" class="sociaux">
+    <img src="img/yt.png" style="width: 30px" class="sociaux">
+</div>
+
+</body>
+</html>
